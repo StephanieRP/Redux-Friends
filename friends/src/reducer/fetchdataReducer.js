@@ -15,6 +15,7 @@ export const fetchdataReducer = (state = initialState, action) => {
         fetchingFriends: true
       };
     case FETCH_DATA_SUCCESS:
+      // console.log(state);
       return {
         ...state,
         error: "",

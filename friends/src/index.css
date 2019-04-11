@@ -64,3 +64,68 @@ button {
   width: 20%;
   font-size: 1rem;
 }
+
+.friends-list {
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  height: auto;
+}
+
+header {
+  background: rgba(255, 255, 255, 0.726);
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.6rem;
+}
+
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #d16ba5;
+  padding: 1rem 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.friend-container {
+  text-align: center;
+}
+
+.friends {
+  background: rgba(255, 255, 255, 0.61);
+  width: 30%;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+.friends:hover {
+  background: #d16ba5;
+  color: white;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.add-friend {
+  background: transparent;
+  border: #d16ba5 solid 2px;
+  border-radius: 10px;
+  margin: 2rem auto;
+}
