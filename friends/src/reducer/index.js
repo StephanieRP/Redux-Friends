@@ -1,7 +1,6 @@
 import { combineReducers } from "redux";
 import { fetchdataReducer } from "./fetchdataReducer";
 import { loginReducer } from "./loginReducer";
-// import { postReducer } from "./postReducer";
 
 export const initialState = {
   deletingFriend: false,
@@ -16,5 +15,4 @@ export const initialState = {
 export default combineReducers({
   data: fetchdataReducer,
   login: loginReducer
-  //   post: postReducer
 });

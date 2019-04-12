@@ -2,8 +2,6 @@ import React from "react";
 import Friends from "./Friends";
 
 const FriendsList = props => {
-  console.log(props);
-
   return (
     <div className="friend-container">
       <h1> Current Friends </h1>

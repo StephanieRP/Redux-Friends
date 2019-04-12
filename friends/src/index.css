@@ -38,7 +38,7 @@ code {
 form {
   width: 60%;
   margin: 0 auto;
-  background: white;
+  background: rgba(255, 255, 255, 0.788);
   padding: 5rem;
   border-radius: 10px;
 }
